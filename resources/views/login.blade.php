@@ -18,6 +18,13 @@
             <button id="Login">Login</button>
             <p id="mensagemErro" class="mensagem-erro"></p>
         </div>
+        <!-- No final do formulário de login, antes de fechar a div principal -->
+<div class="text-center mt-4">
+    <p class="text-sm text-gray-600">
+        Não tem uma conta? 
+        <a href="/registro" class="font-medium text-blue-600 hover:underline">Crie uma aqui</a>
+    </p>
+</div>
     </div>
     @vite(['resources/js/login.js']) <!-- Se tiver JavaScript -->
 </body>
